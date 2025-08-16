@@ -2,6 +2,7 @@ var menu = document.querySelector('#nav i')
 var cross = document.querySelector('#full i')
 
 var tl = gsap.timeline()
+// var tl = gsap.timeline({paused:true})  // another way to paused gsap timeline 
 
 tl.to('#full', {
   right: 0,
